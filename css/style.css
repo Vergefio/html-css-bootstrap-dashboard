@@ -7,6 +7,25 @@
 
 .rds-container {
   width: 10%;
+  height: 100vh;
+  position: relative;
   background-color: #051e34;
 }
 
+.rds-background-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url(../img/sidebar-bg.png);
+}
+
+.main-center {
+  width: 90%;
+  background-color: aliceblue;
+}
+
+.tabella, .i-table, .text-table  {
+  border: 2px solid black;
+}
